@@ -1,0 +1,24 @@
+.weathercontainer {
+  margin: 20px auto;
+  display: block;
+  max-width: 480px;
+  background-color: #f9cdd5;
+  opacity: 78%;
+  border-radius: 10px;
+  box-shadow: 15px 10px 15px 5px #4a4e56;
+  font-family: barlow;
+  padding-top: 40px;
+}
+
+.Header-searchbutton {
+  text-align: center;
+  color: #352f44;
+}
+.search {
+  color: #666462;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+}

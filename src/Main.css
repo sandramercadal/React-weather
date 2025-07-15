@@ -1,0 +1,68 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/154/249/original/Screenshot_2025-01-08_at_12.30.02.png?1736339418");
+  background-size: cover;
+  -webkit-animation: slidein 145s;
+  animation: slidein 145s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 33px;
+  text-transform: capitalize;
+  color: #666462;
+}
+h2 {
+  text-align: center;
+  font-size: 47px;
+  line-height: 50%;
+}
+h3 {
+  text-align: center;
+  font-size: 13px;
+  color: #666462;
+}
+h4 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 35px;
+}
+h5 {
+  text-align: center;
+  font-size: 15px;
+  line-height: 50%;
+  color: #352f44;
+}
+#icon {
+  width: 140px;
+  height: 140px;
+  margin-top: -15px;
+}

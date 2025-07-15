@@ -1,0 +1,11 @@
+App {
+  margin: 35px auto;
+  display: block;
+  max-width: 480px;
+  background-color: #aba094;
+  border-radius: 10px;
+  box-shadow: 15px 10px 15px 5px #4a4e56;
+  padding: 20px;
+  font-family: barlow;
+  text-align: center;
+}
