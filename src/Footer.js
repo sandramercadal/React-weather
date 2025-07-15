@@ -10,6 +10,10 @@ export default function Footer() {
       <a href="https://github.com/sandramercadal/Vanilla-Weather-App">
         {" "}
         Github
+      </a>{" "}
+      and hosted on{" "}
+      <a href="https://github.com/sandramercadal/Vanilla-Weather-App">
+        Netlify{" "}
       </a>
     </div>
   );

@@ -11,6 +11,7 @@ import Main from "./Main.js";
 import "./Main.css";
 import Music from "./Music.js";
 import "./Music.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
@@ -18,13 +19,13 @@ export default function App() {
       <div className="App">
         <div className="weathercontainer">
           <Header />
+          <CurrentDetails />
+          <Main />
+          <Forecast />
         </div>
-        <CurrentDetails />
-        <Main />
+        <Music />
+        <Footer />
       </div>
-
-      <Music />
-      <Footer />
     </div>
   );
 }
