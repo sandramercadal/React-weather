@@ -7,14 +7,8 @@ export default function Footer() {
       Coded by{" "}
       <a href="https://www.linkedin.com/in/sandramercadal/">Sandra Mercadal</a>{" "}
       open-sourced on
-      <a href="https://github.com/sandramercadal/Vanilla-Weather-App">
-        {" "}
-        Github
-      </a>{" "}
-      and hosted on{" "}
-      <a href="https://github.com/sandramercadal/Vanilla-Weather-App">
-        Netlify{" "}
-      </a>
+      <a href="https://github.com/sandramercadal/React-weather"> Github</a> and
+      hosted on <a href="https://app.netlify">Netlify </a>
     </div>
   );
 }
