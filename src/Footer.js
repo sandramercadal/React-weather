@@ -8,7 +8,7 @@ export default function Footer() {
       <a href="https://www.linkedin.com/in/sandramercadal/">Sandra Mercadal</a>{" "}
       open-sourced on
       <a href="https://github.com/sandramercadal/React-weather"> Github</a> and
-      hosted on <a href="https://app.netlify">Netlify </a>
+      hosted on <a href="https://hello-sun.netlify.app/">Netlify </a>
     </div>
   );
 }
