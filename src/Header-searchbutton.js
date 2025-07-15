@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Forecast from "./Forecast";
 
 export default function SearchEngine() {
   const [city, setCity] = useState("");
