@@ -4,6 +4,7 @@ import "./Forecast.css";
 export default function Forecast() {
   return (
     <div className="Forecast">
+      <hr />
       <div className="row justify-content-center" id="forecast">
         <div className="col-2">
           <div className="weather-forecast-date">Sun</div>
