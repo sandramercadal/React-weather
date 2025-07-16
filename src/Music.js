@@ -7,7 +7,7 @@ export default function Music() {
       <h4> Enjoy some tunes with that weather</h4>
       <iframe
         src="https://open.spotify.com/embed/track/4RL77hMWUq35NYnPLXBpih?utm_source=generator&theme=0"
-        title="This is a unique title"
+        title="Birdy on spotify"
         width="100%"
         height="85"
         frameborder="0"
