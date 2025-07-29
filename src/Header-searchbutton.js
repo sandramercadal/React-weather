@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
+import CurrentDetails from "./CurrentDetails";
 
-export default function SearchEngine() {
-  const [city, setCity] = useState("");
+export default function SearchEngine(props) {
+  const [city, setCity] = useState(props.defaultCity);
   const [weather, setWeather] = useState({});
-  const [loaded, setLoaded] = useState("");
+  const [loaded, setLoaded] = useState(false);
 
   function displaySearch(response) {
     setLoaded(true);
@@ -14,11 +15,13 @@ export default function SearchEngine() {
       wind: response.data.wind.speed,
       humidity: response.data.temperature.humidity,
       icon: response.data.condition.icon_url,
+      city: response.data.city,
+      country: response.data.country,
+      icon_url: response.data.condition.icon_url,
     });
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
+  function searchCity(city) {
     if (city.length > 0) {
       let apiKey = `b88b1f146af7a33abtdd4oddc5070ff6`;
       let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
@@ -26,6 +29,11 @@ export default function SearchEngine() {
     } else {
       alert("Please enter a city");
     }
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    searchCity(city);
   }
 
   function updateCity(event) {
@@ -50,18 +58,11 @@ export default function SearchEngine() {
     return (
       <div className="SearchEngine">
         {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <li>Description: {weather.description}</li>
-          <li>Humidity: {Math.round(weather.humidity)}%</li>
-          <li>Wind: {Math.round(weather.wind)}km/hour</li>
-          <li>
-            <img src={weather.icon} alt={weather.description} />
-          </li>
-        </ul>
+        <CurrentDetails weather={weather} />
       </div>
     );
   } else {
-    return form;
+    searchCity(city);
+    return "Loading...";
   }
 }

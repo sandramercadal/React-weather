@@ -5,7 +5,6 @@ import Header from "./Header-searchbutton.js";
 import "./Header-searchbutton.css";
 import Forecast from "./Forecast.js";
 import "./Forecast.css";
-import CurrentDetails from "./CurrentDetails.js";
 import "./CurrentDetails.css";
 import Main from "./Main.js";
 import "./Main.css";
@@ -18,8 +17,7 @@ export default function App() {
     <div className="container">
       <div className="App">
         <div className="weathercontainer">
-          <Header />
-          <CurrentDetails />
+          <Header defaultCity="Madrid" />
           <Main />
           <Forecast />
         </div>
