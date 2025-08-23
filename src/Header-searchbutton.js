@@ -65,4 +65,9 @@ export default function SearchEngine(props) {
     searchCity(city);
     return "Loading...";
   }
+  <h3>
+    <em>
+      Last updated: <span id="date"></span>
+    </em>
+  </h3>;
 }

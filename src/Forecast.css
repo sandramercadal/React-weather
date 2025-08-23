@@ -1,27 +1,9 @@
-.forecast {
-  margin-top: 12px;
+.Forecast {
   text-align: center;
-  color: #ec6e4c;
-  display: flex;
-  justify-content: space-evenly;
+  color: blueviolet;
 }
 
-.weather-forecast-date {
-  font-size: 18px;
-  text-align: center;
-}
-
-.weather-forecast-temperature-min {
-  text-align: center;
-  color: #352f44;
+.Forecast-temperature-min {
   opacity: 0.6;
-}
-.weather-forecast-temperature-max {
-  text-align: center;
-  color: #352f44;
-  font-weight: bolder;
-}
-.weather-forecast-temperatures {
-  font-size: 15px;
-  text-align: center;
+  margin-left: 5px;
 }
