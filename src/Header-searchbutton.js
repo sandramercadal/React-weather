@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import CurrentDetails from "./CurrentDetails";
+import Forecast from "./Forecast";
 
 export default function SearchEngine(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -18,7 +19,7 @@ export default function SearchEngine(props) {
       city: response.data.city,
       country: response.data.country,
       icon_url: response.data.condition.icon_url,
-      coord: response.data.coord,
+      coordinates: response.data.coord,
     });
   }
 
@@ -67,3 +68,5 @@ export default function SearchEngine(props) {
     return "Loading...";
   }
 }
+
+//<Forecast coordinates={weatherData.coordinates} /> should go within if loaded block (may not be needed)
