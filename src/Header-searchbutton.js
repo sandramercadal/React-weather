@@ -18,6 +18,7 @@ export default function SearchEngine(props) {
       city: response.data.city,
       country: response.data.country,
       icon_url: response.data.condition.icon_url,
+      coord: response.data.coord,
     });
   }
 

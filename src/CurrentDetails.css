@@ -15,6 +15,10 @@ p {
 }
 
 .currentWeather h4 {
-  font-size: 50px;
+  font-size: 47px;
   font-family: "Epunda Slab", serif;
+}
+
+.currentWeather {
+  text-align: center;
 }

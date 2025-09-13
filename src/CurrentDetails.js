@@ -8,21 +8,14 @@ export default function CurrentDetails(props) {
       <h2>{props.weather.city}</h2>
       <h1>{props.weather.country}</h1>
       <h3>{props.weather.description}</h3>
-
-      <img src={props.weather.icon_url} alt="forecast_icon" width="62" />
-      <h4>{Math.round(props.weather.temperature)}°C</h4>
-      <p>
-        Humidity: {props.weather.humidity}% / Wind:{" "}
-        {Math.round(props.weather.wind)}km/h
-      </p>
+      <div ClassName="currentweather-icon">
+        <img src={props.weather.icon_url} alt="forecast_icon" width="62" />
+        <h4>{Math.round(props.weather.temperature)}°C</h4>
+        <p>
+          Humidity: {props.weather.humidity}% / Wind:{" "}
+          {Math.round(props.weather.wind)}km/h
+        </p>
+      </div>
     </div>
   );
 }
-// return (
-//<ReactAnimatedWeather
-//icon={codeMapping[props.code]}
-//color="#1e1e1e"
-//size={props.size}
-//animate={true}
-///>
-//);
