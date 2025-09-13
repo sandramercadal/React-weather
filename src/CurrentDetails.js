@@ -11,10 +11,10 @@ export default function CurrentDetails(props) {
 
       <img src={props.weather.icon_url} alt="forecast_icon" width="62" />
       <h4>{Math.round(props.weather.temperature)}°C</h4>
-      <h4>
+      <p>
         Humidity: {props.weather.humidity}% / Wind:{" "}
         {Math.round(props.weather.wind)}km/h
-      </h4>
+      </p>
     </div>
   );
 }
