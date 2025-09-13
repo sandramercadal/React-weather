@@ -1,1 +1,13 @@
-
+.currentWeather h2 {
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: "Epunda Slab", serif;
+}
+.currentWeather h1 {
+  font-size: 25px;
+  font-family: "Epunda Slab", serif;
+}
+.currentWeather h3 {
+  font-size: 40px;
+  font-family: "Epunda Slab", serif;
+}

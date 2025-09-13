@@ -1,8 +1,15 @@
 .Footer {
-  font-size: 14px;
+  font-size: 14.5px;
   text-align: center;
-  font-family: barlow;
+  font-family: "Epunda Slab", serif;
   color: #48484a;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.React {
+  font-size: 21px;
+  padding: 0;
+  margin: 0;
+  word-spacing: 2px;
 }

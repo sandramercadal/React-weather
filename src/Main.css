@@ -1,8 +1,8 @@
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/154/249/original/Screenshot_2025-01-08_at_12.30.02.png?1736339418");
   background-size: cover;
-  -webkit-animation: slidein 145s;
-  animation: slidein 145s;
+  -webkit-animation: slidein 75s;
+  animation: slidein 75s;
 
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -39,27 +39,32 @@ h1 {
   font-size: 33px;
   text-transform: capitalize;
   color: #666462;
+  font-family: "Epunda Slab", serif;
 }
 h2 {
   text-align: center;
   font-size: 47px;
   line-height: 50%;
+  font-family: "Epunda Slab", serif;
 }
 h3 {
   text-align: center;
   font-size: 13px;
   color: #666462;
+  font-family: "Epunda Slab", serif;
 }
 h4 {
   text-align: center;
   font-size: 22px;
   line-height: 35px;
+  font-family: "Epunda Slab", serif;
 }
 h5 {
   text-align: center;
   font-size: 15px;
   line-height: 50%;
   color: #352f44;
+  font-family: "Epunda Slab", serif;
 }
 #icon {
   width: 140px;

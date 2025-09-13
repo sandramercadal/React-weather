@@ -10,9 +10,9 @@
   padding-top: 40px;
 }
 
-.Header-searchbutton {
-  text-align: center;
+.SearchEngine form {
   color: #352f44;
+  text-align: center;
 }
 .search {
   color: #666462;

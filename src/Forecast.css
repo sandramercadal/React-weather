@@ -1,9 +1,11 @@
 .Forecast {
   text-align: center;
   color: blueviolet;
+  font-family: "Epunda Slab", serif;
 }
 
 .Forecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+  font-family: "Epunda Slab", serif;
 }
