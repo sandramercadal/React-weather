@@ -22,7 +22,6 @@ export default function App() {
           <Header defaultCity="Madrid" />
           <Main />
           <Forecast />
-          <WeatherIcon />
         </div>
         <Music />
         <Footer />
